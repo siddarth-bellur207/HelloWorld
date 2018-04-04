@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        $vitamap=file_get_contents('https://www.vitamap.com/';
+        $vitamap=file_get_contents('https://www.vitamap.com/');
         echo $vitamap;
         ?>
     </body>
